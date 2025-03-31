@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.form nav {
+    display: flex;
+    padding: 4vh 15vw;
+    margin-bottom: 12vh;
+    justify-content: space-between;
+    box-shadow: 1px 3px 20px rgb(239, 233, 233);
+}
+
+.form nav li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+}
+
+.form nav li span {
+    font-family: poppins;
+    font-size: 2.5vh;
+    letter-spacing: 2px;
+}
+
+.form nav li span:nth-child(3) {
+    color: blue;
+}
+
+.form nav li:nth-child(2) {
+    color: rgb(40, 40, 255);
+}
+
+.bigElm {
+    margin: 2vh 13vw;
+
+}
+
+.header {
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+    background-color: rgb(14, 14, 50);
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 0.2vw;
+    font-weight: 600;
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vw;
+    padding: 1vw 2vw;
+    border: 1px solid rgb(227, 211, 211);
+    margin: 2.5vh 0;
+
+}
+
+.body .elm {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.body .elm input {
+    width: 45vh;
+    border: 1px solid rgb(220, 209, 209);
+    ;
+    height: 5vh;
+}
+
+.body-btn {
+    background-color: rgb(36, 36, 166);
+    width: 3vh;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+
+}
+
+.skill-t .elm input {
+    width: 65vw;
+}
+
+.last-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8vh 0;
+}
+
+.prv {
+    padding: 1.7vh 4vh;
+    color: white;
+    background-color: rgb(100, 100, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 2.2vh;
+
+    font-family: poppins;
+}
+
+.prv:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.pre-btn {
+    display: none;
+    
+    padding: 2vh;
+    background-color: rgb(107, 107, 251);
+    color: white;
+    border-radius: 6px;
+}
+
+.pre-btn:hover {
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.4s;
+    color: black;
+}
+
+.download-btn {
+    padding: 2vh;
+    font-family: poppins;
+    background-color: rgb(109, 109, 250);
+    border-radius: 6px;
+    color: white;
+    display:none;
+}
+
+.download-btn:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    padding: 5vh 0;
+    
+
+}
+
+.cont {
+    border: 2px solid black;
+    width: 100vh;
+    margin: 2vh auto;
+    padding: 6vh;
+}
+
+
+.about-temp {
+    display: flex;
+}
+
+.logo img {
+    padding: 2vh 0;
+    width: 11vh;
+}
+
+.abt-info {
+
+    /* border:2px solid black; */
+    padding: 0 2vh;
+    display: flex;
+    justify-content: space-between;
+    width: 89vh;
+}
+
+.info-t {
+    padding-top: 1vh;
+}
+
+.info-t .name-t {
+    font-weight: 600;
+    font-size: 2.7vh;
+}
+
+.info-n {
+    text-align: right;
+    padding-top: 2vh;
+}
+
+.info-lnk a {
+    text-decoration: none;
+    color: black;
+}
+
+.temp-Elm {
+    padding: 1vh 0;
+}
+
+.temp-h {
+    border-bottom: 2px solid black;
+}
+
+.temp-b {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 1vh;
+}
+
+.ins-name {
+    font-size: 2.2vh;
+    font-weight: 600;
+}
+
+.temp-bl {
+    width: 70%;
+    /* border:1px solid black; */
+}
+
+.ins-d {
+    font-size: 2vh;
+}
+
+.temp-br {
+    font-size: 1.8vh;
+    /* border: solid 2px; */
+    width: 30%;
+    text-align: right;
+}
+
+.prj-name {
+    font-size: 2.2vh;
+    font-weight: 600;
+
+}
+
+.prj-name a {
+    text-decoration: none;
+    color: black;
+}
+
+.prj-d {
+    font-size: 2vh;
+}
+
+.prj-b-n .li {
+    font-size: 2vh;
+
+
+
+
+
+
+}
+
+.achv-name {
+    font-size: 2.2vh;
+    font-weight: 600;
+}
+
+.achv-d {
+    font-size: 2vh;
+
+}
+
+.pos-name {
+    font-size: 2.2vh;
+    font-weight: 600;
+}
+
+.pos-d {
+    font-size: 2vh;
+}

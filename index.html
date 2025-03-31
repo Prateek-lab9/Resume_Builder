@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="form">
+        <nav>
+            <li><img width="25" src="copy-image.png" alt=""><span> build </span><span>resume</span></li>
+            <li><i class="fa-solid fa-bars"></i></li>
+        </nav>
+        <div class="aboutf bigElm">
+            <div class="about-h header">ABOUT SECTION</div>
+            <div class="about-t body">
+                <div class="elm">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder=" e.g. Deferry">
+                </div>
+                <div class="elm">
+                    <label for="roll">Roll Number</label>
+                    <input type="number" id="roll" placeholder=" e.g. 2xxxxx3">
+                </div>
+                <div class="elm">
+                    <label for="pgm">Your Program</label>
+                    <input type="text" id="pgm" placeholder="  e.g. B.Tech">
+                </div>
+                <div class="elm">
+                    <label for="crs">Your Course</label>
+                    <input type="text" id="crs" placeholder="  e.g. Computer Science Engineering">
+                </div>
+                <div class="elm">
+                    <label for="no">Phone Number</label>
+                    <input type="number" id="no" placeholder="  e.g. +91-1234567890">
+                </div>
+                <div class="elm">
+                    <label for="email">E-Mail</label>
+                    <input type="text" id="email" placeholder="  e.g. deferry123@gmail.com">
+                </div>
+                <div class="elm">
+                    <label for="gh">GitHub Link</label>
+                    <input type="text" id="gh" placeholder="  e.g. https://www.github.com">
+                </div>
+                <div class="elm">
+                    <label for="li">Linkedin</label>
+                    <input type="text" id="li" placeholder="  e.g. https://www.linkedin.com">
+                </div>
+            </div>
+        </div>
+
+        <div class="edf bigElm">
+            <div class="ed-h header">EDUCATION</div>
+            <div class="ed-t body">
+                <div class="elm">
+                    <label for="ins">Institute</label>
+                    <input type="text" id="ins">
+                </div>
+                <div class="elm">
+                    <label for="deg">Degree</label>
+                    <input type="text" id="deg">
+                </div>
+                <div class="elm">
+                    <label for="yr">Year</label>
+                    <input type="text" id="yr">
+                </div>
+                <div class="elm">
+                    <label for="cg">CGPA/Percentage</label>
+                    <input type="text" id="cg">
+                </div>
+            </div>
+            <button class="body-btn btn-ed">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+
+        </div>
+
+        <div class="prjf bigElm">
+            <div class="prj-h header">PROJECTS</div>
+            <div class="prj-t body">
+                <div class="elm">
+                    <label for="prj-nm">Project Name</label>
+                    <input type="text" id="prj-nm">
+                </div>
+
+                <div class="elm">
+                    <label for="prj-desc">Project Description</label>
+                    <input type="text" id="prj-desc">
+                </div>
+                <div class="elm">
+                    <label for="prj-tg">Technologies Used</label>
+                    <input type="text" id="prj-tg">
+                </div>
+                <div class="elm">
+                    <label for="prj-md">More Description</label>
+                    <input type="text" id="prj-md">
+                </div>
+                <div class="elm">
+                    <label for="prj-dt">Date</label>
+                    <input type="date" id="prj-dt">
+                </div>
+            </div>
+            <button class="body-btn btn-prj">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+
+        <div class="skillf bigElm">
+            <div class="skill-h header">SKILLS</div>
+            <div class="skill-t body">
+                <div class="elm">
+                    <label for="sk">Skill</label>
+                    <input type="text" id="sk">
+                </div>
+            </div>
+            <button class="body-btn btn-skill">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+
+        <div class="achvf bigElm">
+            <div class="achv-h header">ACHIEVEMENTS</div>
+            <div class="achv-t body">
+                <div class="elm">
+                    <label for="achv-achv">Achievement</label>
+                    <input type="text" id="achv-achv">
+                </div>
+                <div class="elm">
+                    <label for="achv-des">Description</label>
+                    <input type="text" id="achv-des">
+                </div>
+                <div class="elm">
+                    <label for="achv-dt">Date</label>
+                    <input type="date" id="achv-dt">
+                </div>
+            </div>
+            <button class="body-btn btn-achv">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+
+        <div class="posf bigElm">
+            <div class="pos-h header">POSITIONS OR CLUBS</div>
+            <div class="pos-t body">
+                <div class="elm">
+                    <label for="pos-pos">Position</label>
+                    <input type="text" id="pos-pos">
+                </div>
+                <div class="elm">
+                    <label for="pos-cb">Club Name</label>
+                    <input type="text" id="pos-cb">
+                </div>
+                <div class="elm">
+                    <label for="pos-tn">Tenure</label>
+                    <input type="text" id="pos-tn">
+                </div>
+            </div>
+            <button class="body-btn btn-pos">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+
+
+        <div class="last-btn">
+            <button class="prv">Preview</button>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="pre-btn"><i class="fa-solid fa-arrow-left"></i></div>
+        <div class="cont" id="template">
+            <div class="temp">
+
+
+                <div class="about-temp temp-Elm">
+                    <div class="logo"><img src="logo.png"></div>
+                    <div class="abt-info">
+                        <div class="info-t">
+                            <div class="name-t">Your Name</div>
+                            <div class="rollNo-t">Roll No</div>
+                            <div class="prgm-t">Your Program</div>
+                            <div class="crs-t">Your Course</div>
+                            National Institue Of Technology, Patna
+                        </div>
+                        <div class="info-n">
+
+                            <div class="no-t">+91-xxxxxxxxxx</div>
+                            <div class="mail-t info-lnk">
+                                <a href="#">youremail@gmail.com</a>
+                            </div>
+                            <div class="gthb-t info-lnk">
+                                <a href="#">GitHub Profile</a>
+                            </div>
+                            <div class="lnkd-t info-lnk">
+                                <a href="#">Linkedin Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ed-temp temp-Elm">
+                    <div class="ed-temp-h temp-h">EDUCATION</div>
+                    <div class="ed-temp-b temp-b">
+                        <div class="ed-b-n temp-bl">
+                            <div class="ins-name">Your Institute Name</div>
+                            <div class="ins-d">Your Degree and Course Name</div>
+                        </div>
+                        <div class="ed-b-y temp-br">
+                            <div class="ins-year">Year</div>
+                            <div class="ins-cg">CGPA/Percentage</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prj-temp temp=Elm">
+                    <div class="prj-temp-h temp-h">PROJECTS</div>
+                    <div class="prj-temp-b temp-b">
+                        <div class="prj-b-n temp-bl">
+                            <div class="prj-name">Project Name</div>
+                            <div class="prj-d">Project description</div>
+                            <div class="li">Tools and technologies used</div>
+                            <div class="li">More description on project</div>
+                        </div>
+                        <div class="prj-b-d temp-br">Event Date</div>
+                    </div>
+                </div>
+
+                <div class="skill-temp temp-Elm">
+                    <div class="skill-temp-h temp-h">TECHNICAL SKILLS AND INTEREST</div>
+                    <div class="skill-temp-b temp-b">
+                        <div class="skill-b-n temp-bl">
+                            <li>Skills</li>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achv-temp temp-Elm">
+                    <div class="achv-temp-h temp-h">ACHIEVEMENTS</div>
+                    <div class="achv-temp-b temp-b">
+                        <div class="achv-b-n temp-bl">
+                            <div class="achv-name">Achievement</div>
+                            <div class="achv-d">Description</div>
+                        </div>
+                        <div class="achv-b-d temp-br">Event Date
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pos-temp temp-Elm">
+                    <div class="pos-temp-h temp-h">POSITION OF RESPONSIBILITY</div>
+                    <div class="pos-temp-b temp-b">
+                        <div class="pos-b-n temp-bl">
+                            <div class="pos-name">Position</div>
+                            <div class="pos-d">Club or Event</div>
+                        </div>
+                        <div class="pos-b-d temp-br">Event Date
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="download-btn"><i class="fa-solid fa-download"></i> Download Now</div>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</body>
+
+<div class="temp">
+
+</div>
+
+</html>
